@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #282c34;
+  color:white;
+}
+
+.select-wrapper {
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  padding: 30px;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  background-color: bisque;
+  margin: 0;
+  height: 100%;
+}
