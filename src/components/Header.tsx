@@ -15,6 +15,7 @@ const options: OptionType[] = [
 
 const Header = () => {
   const [selectedOption, setSelectedOption] = useState<OptionType>(options[0])
+  const [clicksQuantity, setClicksQuantity] = useState(1)
   const { i18n, t } = useTranslation()
   const { language } = i18n
   useEffect(() => {
@@ -27,10 +28,11 @@ const Header = () => {
   }
   return (
     <header>
-      <p>{t('header-title')}</p>
+      <p>{t('header-title', { name: clicksQuantity })}</p>
       <div className='select-wrapper'>
         <Select options={options} value={selectedOption} onChange={option => handleChange(option)} />
       </div>
+      <button className="header-button" onClick={() => setClicksQuantity(clicksQuantity + 1)}></button>
     </header>
   )
 }

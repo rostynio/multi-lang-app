@@ -1,5 +1,5 @@
 {
-  "header-title": "What to do on quarantine?",
+  "header-title": "What to do on quarantine {{name}}?",
   "movie": "You can watch a movie",
   "sport": "You can do some sport",
   "pizza": "You can make a pizza",
