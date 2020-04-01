@@ -1,8 +1,9 @@
 {
-  "0": "You can watch a movie",
-  "1": "You can do some sport",
-  "2": "You can make a pizza",
-  "3": "Your can read a book",
-  "4": "Your can sleep whole day",
-  "5": "And a lot of another things"
+  "header-title": "What to do on quarantine?",
+  "movie": "You can watch a movie",
+  "sport": "You can do some sport",
+  "pizza": "You can make a pizza",
+  "read": "Your can read a book",
+  "sleep": "Your can sleep whole day",
+  "another": "And a lot of another things"
 }

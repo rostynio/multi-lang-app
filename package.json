@@ -16,6 +16,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.3.4",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-select": "^3.1.0",
     "typescript": "~3.7.2"
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@types/i18next-xhr-backend": "^1.4.2",
-    "@types/react-i18next": "^8.1.0"
+    "@types/react-i18next": "^8.1.0",
+    "@types/react-router-dom": "^5.1.3"
   }
 }

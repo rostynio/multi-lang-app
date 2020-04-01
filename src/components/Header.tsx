@@ -15,7 +15,7 @@ const options: OptionType[] = [
 
 const Header = () => {
   const [selectedOption, setSelectedOption] = useState<OptionType>(options[0])
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const { language } = i18n
   useEffect(() => {
     const html = document.querySelector('html')
@@ -27,7 +27,7 @@ const Header = () => {
   }
   return (
     <header>
-      <p>What to do on quarantine?</p>
+      <p>{t('header-title')}</p>
       <div className='select-wrapper'>
         <Select options={options} value={selectedOption} onChange={option => handleChange(option)} />
       </div>
